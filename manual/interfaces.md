@@ -1,18 +1,20 @@
 # How to configure network interfaces
 
 As per openstack kilo documentation we require 3 networks as follows
-  * ### Management network
+  * #### Management network
   	
 	Management network is used for communication between openstack services
-  * ### Tunnel network
+  * #### Tunnel network
   
 	Tunnel network is used for handling network connections of VM from compute node to network node
-  * ### Storage network
+  * #### Storage network
 
 	Storage network is used for increasing disk access speed
-  * ### External network
+  * #### External network
 
 	External network is used for providing internet connection to VM's. This is where Floating IP's come into picture.
+
+
 ## Controller
 configure ```/etc/network/interfaces``` on controller node as follows
 
