@@ -31,3 +31,5 @@ iface eth1 inet static
                                 # Ubuntu Linux - This is your default gateway 
         gateway 205.153.203.97
 ```
+
+Ref:http://www.cyberciti.biz/faq/ubuntu-linux-add-static-routing/
